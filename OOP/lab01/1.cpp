@@ -8,9 +8,9 @@ int main()
     cin >> a >> b >> c;
     // a тоог b -д харьцуулж их утгыг авна. дараа нь c утгад харьцуулна
     max = a;
-    if (a > b)
+    if (b > a)
     {
-        max = a;
+        max = b;
     }
     if (c > max)
     {

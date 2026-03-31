@@ -2,14 +2,15 @@
 using namespace std;
 int main()
 {
-    int n;
+    // n болон s тоог зарлана
+    int n = 5;
     float s = 0;
-    cout << "n: ";
-    cin >> n;
+    // n хүртэлх тоог s дээр нэмнэ
     for (int i = 1; i <= n; i++)
     {
         s += i;
     }
+    // гаралт
     cout << "niit utga: " << s << "\n";
     cout << "dundaj utga: " << s / n;
 }

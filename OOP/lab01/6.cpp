@@ -2,11 +2,12 @@
 using namespace std;
 int main()
 {
-
-    int  min, max, temp, lis[5] = {2, 3, 4, 5, 6};
+    // хувьсагчидаа зарлана
+    int  min, max, lis[5] = {2, 3, 9, 5, 6};
+    // min, max -д эхний тоог тавина
     min = lis[0];
     max = lis[0];
-
+    // array доторх тоог болгоноо min, max тайгаа харьцуулна
     for (int i = 0; i < 5; i++)
     {
         if(lis[i] > max){
@@ -16,6 +17,7 @@ int main()
             min = lis[i];
         }
     }
+    // гаралт
     cout << "hamgin baga utga: " << min << endl;
     cout << "hamgin ih utga: " << max << endl;
 }
